@@ -6,6 +6,17 @@ media_folder: "static/images"
 public_folder: "images"
 
 collections: 
+  - name: "docs" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Docs" # Used in the UI, ie.: "New Post"
+    create: true
+    folder: "exampleSite/content/docs/"
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      
   - name: "poem" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Poem" # Used in the UI, ie.: "New Post"
     create: true
