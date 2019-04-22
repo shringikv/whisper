@@ -6,14 +6,38 @@ media_folder: "static/images"
 public_folder: "images"
 
 collections: 
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
+  - name: "poem" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Poem" # Used in the UI, ie.: "New Post"
     create: true
-    folder: "exampleSite/content/docs/"
+    folder: "exampleSite/content/poems/"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "madhubani" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Madhubani" # Used in the UI, ie.: "New Post"
+    create: true
+    folder: "exampleSite/content/madhubani/"
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      
+  - name: "research_post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "ResearchPost" # Used in the UI, ie.: "New Post"
+    create: true
+    folder: "exampleSite/content/research/"
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      
+      
 
