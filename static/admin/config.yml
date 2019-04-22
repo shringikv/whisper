@@ -8,6 +8,7 @@ public_folder: "images"
 collections: 
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
+    create: true
     folder: "exampleSite/content/docs/"
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
