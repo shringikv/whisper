@@ -34,6 +34,7 @@ pygmentsUseClasses = true
     weight = 2
 
 [params]
+  mainSections = ["docs", "poems"]
   #google_analytics_id=""
   #homepage_button_link = '/docs'
   #homepage_button_text = 'Read The Docs'
