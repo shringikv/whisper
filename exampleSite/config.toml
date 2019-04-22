@@ -14,11 +14,6 @@ pygmentsUseClasses = true
     weight = 1
 
 [[menu.main]]
-    name = "Docs"
-    url = "/docs/"
-    weight = 2
-
-[[menu.main]]
     name = "Poems"
     url = "/poems/"
     weight = 2
