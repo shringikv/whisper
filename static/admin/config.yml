@@ -28,7 +28,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       
-  - name: "research_post" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "researchpost" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "ResearchPost" # Used in the UI, ie.: "New Post"
     create: true
     folder: "exampleSite/content/research/"
