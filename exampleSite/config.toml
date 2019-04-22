@@ -18,6 +18,21 @@ pygmentsUseClasses = true
     url = "/docs/"
     weight = 2
 
+[[menu.main]]
+    name = "Poems"
+    url = "/poems/"
+    weight = 2
+    
+[[menu.main]]
+    name = "Madhubani"
+    url = "/madhubani/"
+    weight = 2
+    
+[[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+
 [params]
   #google_analytics_id=""
   #homepage_button_link = '/docs'
