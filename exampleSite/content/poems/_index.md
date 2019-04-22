@@ -1,3 +1,0 @@
-
-
-Whisper is poem
